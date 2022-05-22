@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <Button-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="#FF3D00"-->
+<!--        android:id="@+id/showInterstitialAdBtn"-->
+<!--        android:text="Show Interstitial Ads"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="#FF3D00"-->
+<!--        android:id="@+id/showBannerAdBtn"-->
+<!--        android:text="Show Banner Ads"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+
+    <include layout="@layout/toolbar_layout" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginLeft="20dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4187871909052103/7331565340"></com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:id="@+id/bannerAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" />
+
+
+    <include layout="@layout/layout_category_list" />
+</LinearLayout>

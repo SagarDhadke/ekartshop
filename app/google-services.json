@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755737178538",
+    "project_id": "dhimangarments2-e25e3",
+    "storage_bucket": "dhimangarments2-e25e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755737178538:android:fb47abd2d630db402c7bd3",
+        "android_client_info": {
+          "package_name": "com.dhiman.vivek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755737178538-n6kndmcu1lbd9evh8fbov2n8813j6i7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC69yAzK7ChsMCcqZ4qlk7AE4TYDCRLi5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755737178538-n6kndmcu1lbd9evh8fbov2n8813j6i7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
